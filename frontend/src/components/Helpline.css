@@ -1,0 +1,53 @@
+.helpline-container {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.helpline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.helpline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.helpline-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.helpline-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.helpline-info p {
+  margin: 0;
+  color: #666;
+}
+
+.helpline-number a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
